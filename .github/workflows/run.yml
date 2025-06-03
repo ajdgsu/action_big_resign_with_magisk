@@ -16,7 +16,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     container:
       image: ghcr.io/catthehacker/ubuntu:runner-20.04
     steps:
